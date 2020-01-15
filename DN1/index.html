@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>DN1</title>
+		<style>
+			.btn {
+				background-color: #4CAF50; 
+				border: none;
+				color: white;
+				padding: 5px 10px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				-webkit-transition-duration: 0.4s;
+				transition-duration: 0.4s;
+				cursor: pointer;
+				}
+
+				.btn {
+				background-color: #4CAF50; 
+				color: black; 
+				border: 2px solid #4CAF50;
+				}
+
+				.btn:hover {
+				background-color: #4CAF50;
+				color: white;
+				}
+				table, td, th {
+				border: 1px solid black;
+				}
+
+				table {
+				border-collapse: collapse;
+				}
+				textarea{
+					width:40%;
+				}
+				.presledk{
+					width:8%;
+					display:inline-block;
+				}
+				.holder{
+					width:40%;
+					display:inline-block;
+				}
+			</style>
+
+	</head>
+	<body>
+		<h3>Izris Vektorjev</h3>
+		<p id="test"></p>
+		<h3>Izris Matrik:</h3>
+		<span id="test2"></span></br>
+		<h3><span class="holder">Vnesi vektorje:</span><span class="presledk"></span><span class="holder">Transformirani vektorji:</span></h3>
+		<textarea id="area" rows="15"></textarea><span class="presledk"></span><textarea id="output" rows="15" readonly></textarea></br></br>
+		<button class="btn" onClick="onButtonClick();">Transformiraj vektorje</button>
+		<script src="index.js"></script>
+	</body>
+</html>

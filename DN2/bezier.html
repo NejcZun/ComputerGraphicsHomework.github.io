@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DN2 - Bezier</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+        .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 4px 4px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 10px;
+            margin: 4px 2px;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            cursor: pointer;
+            }
+            .button3 {
+            background-color: #f44336; 
+            color: white; 
+            }
+            .button3:hover {
+            background-color: #921209;
+            color: white; 
+            }
+        .history table{
+            width:50%;
+            margin:auto;
+        }
+        #platno{
+            border: 1px solid black;
+            margin:inherit;
+            display:block;
+            margin-top:50px;
+            background: #333;
+        }
+        .container{
+            width:100%;
+            margin:auto;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <canvas id="platno" width=1000 height=500></canvas>
+            <p>Pick the curves color:</p>
+            <input type="color" name="color" id="color" value="#ffffff">
+        </div>
+        <div class="history">
+                <table class="w3-table-all">
+                    <tr>
+                        <th>Krivulje</th>
+                        <th>Akcija</th>
+                    </tr>
+                    <tbody id="history"></tbody>
+                </table>
+        </div>
+        <script src="bezier.js"></script>
+    </body>
+</html>

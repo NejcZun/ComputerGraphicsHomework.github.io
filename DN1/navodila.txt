@@ -1,0 +1,19 @@
+﻿Na koncu datoteke index.js lahko odkomentirate posamezne vrstice za testiranje.
+
+Vektorje vpišite v formatu:
+v 1 2 3
+v 4 5 6
+v 7 8 9
+
+Izpis vektorjev preko TransformPoints se bo pokazala v areaboxu desno od areaboxa za vpis vektorjev.
+
+Nekonsistence, ki sem jih preverjal v kodi:
+ - Preverjanje tipa, ki ga dobimo v konstruktorju
+ - Deljenje z 0
+ - Pravilno število vektorjev v vnosnem polju
+ - Ujemanje matrik
+ 
+Vse napake se izpisujejo v konzolo (preko console.log();)
+ 
+ 
+Nejc Žun 63170329
