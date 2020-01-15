@@ -1,0 +1,30 @@
+<html>
+    <head>
+         <link rel="stylesheet" type="text/css" href="style.css">
+         <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="container">
+			<div id="canvasContainer">
+                <canvas id="canvas" width="800" height="800"></canvas>
+                <div class="controls">
+                    See QuadTree<input type="checkbox" id="seeQuad">
+                    <a href="index.html?num=50">50</a>
+                    <a href="index.html?num=100">100</a>
+                    <a href="index.html?num=300">300</a>
+                    <a href="index.html?num=500">500</a>
+                </div>
+			</div>
+		</div>
+
+        <script src="quadtree.js"></script>
+        <script src="main.js"></script>
+        <!--
+        Pomoc z:
+        QuadTree:    
+            https://stackoverflow.com/questions/41946007/efficient-and-well-explained-implementation-of-a-quadtree-for-2d-collision-det
+        Bounce:
+            http://rectangleworld.com/blog/archives/358
+        -->
+	</body>
+</html>

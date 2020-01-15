@@ -9,7 +9,6 @@ function Quadtree( limit, max_circles, max_levels, level) {
 
 Quadtree.prototype.split = function() {
 	var nextLevel = this.level+1; //quad level
-
 	//velikost 
 	var subWidth = Math.round( this.limit.width / 2 ); 
 	var subHeight = Math.round( this.limit.height / 2 );
@@ -17,7 +16,7 @@ Quadtree.prototype.split = function() {
 	//pozicija
 	var x = Math.round( this.limit.x );
 	var y = Math.round( this.limit.y );		
- 
+	//console.log("x: " + x + "y: " + y);
 	 //zgoraj desno
 	this.nodes[0] = new Quadtree({x:x + subWidth, y:y,width:subWidth,height:subHeight},this.max_circles, this.max_levels, nextLevel);
 	

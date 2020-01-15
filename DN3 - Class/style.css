@@ -1,0 +1,19 @@
+body {
+	color: black;
+	font-size: 14px;
+	margin-top: 20px;
+	background: white;
+}
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+#canvasContainer canvas {
+    display: inline-block;
+    width:800px;
+	background: gray;
+}
+#seeQuad{
+    width:15px;
+    height:15px;
+}
