@@ -1,6 +1,8 @@
 # Computer-Graphics-Homework-2019-2020
 Homework for the subject: Computer Graphics
 
+You can select the projects below or on this website: https://nejczun.github.io/ComputerGraphicsHomework.github.io
+
 ### Homework 1:
 - Vector4f
 - Matrix4f 
